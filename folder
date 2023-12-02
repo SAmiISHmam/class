@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int  n;
+    scanf("%d", &n);
+     if (n==1)
+    {
+       printf("Yes");
+    }
+    else{
+    for(int i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            printf("NO\n");
+            break;}
+        else
+        {
+            printf("YES\n");
+            break;
+        }
+
+    }
+    }
+
+    return 0;
+}
